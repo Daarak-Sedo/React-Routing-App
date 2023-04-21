@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: bisque;
+    padding: 20px;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-around;
+  
+}
+.nav-link{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+
+}
+.active{
+    color: rgb(122, 219, 219);
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
